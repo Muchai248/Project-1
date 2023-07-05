@@ -3,10 +3,10 @@
     {
       "id": 1,
       "name": "MEM investment LTD",
-      "poster": "asset/keyhouse.jpg",
+      "poster": "asset/swimhouse.jpg",
       "years": 18,
       "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.Invest with us!",
-      "ratingstars": 5
+      "rating": 5
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "poster": "asset/keyhouse.jpg",
       "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.Build a home for tomorrow!",
       "years": 14,
-      "ratingstar": 5
+      "rating": 5
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "poster": "asset/keyhouse.jpg",
       "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.For a well shelterd lifestyle!",
       "years": 10,
-      "ratingstar": 4
+      "rating": 4
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "poster": "asset/keyhouse.jpg",
       "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.Jenga Familia!",
       "years": 6,
-      "ratingstar": 3
+      "rating": 3
     },
     {
       "id": 5,
@@ -38,7 +38,7 @@
       "poster": "asset/keyhouse.jpg",
       "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.Secure your Future!",
       "years": 14,
-      "ratingstar": 5
+      "rating": 5
     },
     {
       "id": 6,
@@ -46,7 +46,7 @@
       "poster": "asset/keyhouse.jpg",
       "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.The better option!",
       "years": 15,
-      "ratingstar": 5
+      "rating": 5
     }
   ],
   "Users": [
@@ -149,6 +149,21 @@
       "name": "muchaimark6@gmail.com",
       "password": "2356234567",
       "id": 21
+    },
+    {
+      "name": "muchaimark6@gmail.com",
+      "password": "4251234512345",
+      "id": 22
+    },
+    {
+      "name": "muchaimark6@gmail.com",
+      "password": "wq4tq45",
+      "id": 23
+    },
+    {
+      "name": "muchaimark6@gmail.com",
+      "password": "12345",
+      "id": 24
     }
   ]
 }

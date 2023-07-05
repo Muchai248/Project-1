@@ -35,10 +35,9 @@ housingData.forEach(housing => {
 
   // Set the HTML content of the div using the housing object properties
   housingDiv.innerHTML = `
+  <div></div>
     <h2>${housing.name}</h2>
-    <div>
     <img src="${housing.poster}" alt="Housing Poster">
-    </div>
     <p>${housing.description}</p>
     <p>Years: ${housing.years}</p>
     <p>Rating: ${housing.ratingstars} stars</p>
@@ -56,7 +55,38 @@ housingData.forEach(housing => {
   container.appendChild(housingDiv);
 });
 
+
+const ratingStars = [...document.getElementsByClassName("rating__star")];
+
+function executeRating(stars) {
+  const starClassActive = "rating__star fas fa-star";
+  const starClassInactive = "rating__star far fa-star";
+  const starsLength = stars.length;
+  let i;
+  stars.map((star) => {
+    star.onclick = () => {
+      i = stars.indexOf(star);
+
+      if (star.className===starClassInactive) {
+        for (i; i >= 0; --i) stars[i].className = starClassActive;
+      } else {
+        for (i; i < starsLength; ++i) stars[i].className = starClassInactive;
+      }
+    };
+  });
+}
+executeRating(ratingStars);
+
+
+
+
+
 })
+
+
+
+
+
 
 
 
@@ -96,30 +126,6 @@ function putData(e){
     modal.style.display = "none";
 
 }
-
-
-const ratingStars = [...document.getElementsByClassName("rating__star")];
-
-function executeRating(stars) {
-  const starClassActive = "rating__star fas fa-star";
-  const starClassInactive = "rating__star far fa-star";
-  const starsLength = stars.length;
-  let i;
-  stars.map((star) => {
-    star.onclick = () => {
-      i = stars.indexOf(star);
-
-      if (star.className===starClassInactive) {
-        for (i; i >= 0; --i) stars[i].className = starClassActive;
-      } else {
-        for (i; i < starsLength; ++i) stars[i].className = starClassInactive;
-      }
-    };
-  });
-}
-executeRating(ratingStars);
-
-
 
 
 
