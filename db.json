@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "MEM investment LTD",
-      "poster": "asset/Titledeed.png",
+      "poster": "asset/keyhouse.jpg",
       "years": 18,
       "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.Invest with us!",
       "ratingstars": 5
@@ -11,7 +11,7 @@
     {
       "id": 2,
       "name": "Lincoln Investment LTD",
-      "poster": "asset/Titledeed.png",
+      "poster": "asset/keyhouse.jpg",
       "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.Build a home for tomorrow!",
       "years": 14,
       "ratingstar": 5
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "name": "Blue Sky Realtors",
-      "poster": "asset/Titledeed.png",
+      "poster": "asset/keyhouse.jpg",
       "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.For a well shelterd lifestyle!",
       "years": 10,
       "ratingstar": 4
@@ -27,7 +27,7 @@
     {
       "id": 4,
       "name": "Spectron Shelters LTD",
-      "poster": "asset/Titledeed.png",
+      "poster": "asset/keyhouse.jpg",
       "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.Jenga Familia!",
       "years": 6,
       "ratingstar": 3
@@ -35,7 +35,7 @@
     {
       "id": 5,
       "name": "Diamon Lands LTD",
-      "poster": "asset/Titledeed.png",
+      "poster": "asset/keyhouse.jpg",
       "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.Secure your Future!",
       "years": 14,
       "ratingstar": 5
@@ -43,7 +43,7 @@
     {
       "id": 6,
       "name": "Park Lands Investment LTD",
-      "poster": "asset/Titledeed.png",
+      "poster": "asset/keyhouse.jpg",
       "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.The better option!",
       "years": 15,
       "ratingstar": 5
@@ -104,6 +104,51 @@
       "name": "muchaimark6@gmail.com",
       "password": "retqwergaerergqerrbaeb",
       "id": 12
+    },
+    {
+      "name": "muchaimark6@gmail.com",
+      "password": "123456789",
+      "id": 13
+    },
+    {
+      "name": "",
+      "password": "",
+      "id": 14
+    },
+    {
+      "name": "",
+      "password": "",
+      "id": 15
+    },
+    {
+      "name": "",
+      "password": "",
+      "id": 16
+    },
+    {
+      "name": "",
+      "password": "",
+      "id": 17
+    },
+    {
+      "name": "muchaimark6@gmail.com",
+      "password": "1234",
+      "id": 18
+    },
+    {
+      "name": "",
+      "password": "",
+      "id": 19
+    },
+    {
+      "name": "muchaimark6@gmail.com",
+      "password": "2351245145",
+      "id": 20
+    },
+    {
+      "name": "muchaimark6@gmail.com",
+      "password": "2356234567",
+      "id": 21
     }
   ]
 }

@@ -9,11 +9,11 @@ const url="http://localhost:3000/housing"
 //DOM manipulation
 
 const modal = document.getElementById('id1');
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
+//window.onclick = function(event) {
+  //if (event.target == modal) {
+    //modal.style.display = "none";
+ // }
+//}
 
 
 
@@ -21,34 +21,47 @@ window.onclick = function(event) {
 
 
 //Event listers
+fetch("http://localhost:3000/housing")
+.then(response => response.json())
+.then(housingData => {
+  console.log(housingData);
+  const container = document.getElementById("one");
+
+// Iterate over the housing data and generate HTML for each housing object
+housingData.forEach(housing => {
+  console.log(housing)
+  // Create a new div element for each housing object
+  const housingDiv = document.createElement("div");
+
+  // Set the HTML content of the div using the housing object properties
+  housingDiv.innerHTML = `
+    <h2>${housing.name}</h2>
+    <div>
+    <img src="${housing.poster}" alt="Housing Poster">
+    </div>
+    <p>${housing.description}</p>
+    <p>Years: ${housing.years}</p>
+    <p>Rating: ${housing.ratingstars} stars</p>
+    <div class="rating">
+    <i class="rating__star far fa-star"></i>
+    <i class="rating__star far fa-star"></i>
+    <i class="rating__star far fa-star"></i>
+    <i class="rating__star far fa-star"></i>
+    <i class="rating__star far fa-star"></i>
+</div>
+
+  `;
+
+  // Append the div to the container element
+  container.appendChild(housingDiv);
+});
+
+})
 
 
 
 
 
-
-//communicating with the server
-
-
-let titledeed=[]
-
-
-
-async function fetchData(){
-    const response = await fetch("http://localhost:3000/housing")
-    const post=document.getElementById(post);
-
-    const data = await response.json();
-    fetchData()
-    .then(()=>{})
-    .catch((e)=>{
-        console.log(e)
-    })
-    
-return response.json();
-}
-
-document.getElementById("post").innerHTML
 
 
 function submitData(e){
@@ -67,6 +80,7 @@ function submitData(e){
         },
         body:JSON.stringify(data)
     })
+    modal.style.display = "none";
 }
 
 
@@ -78,10 +92,10 @@ function putData(e){
         "password":password
     }
 
+    
+    modal.style.display = "none";
 
 }
-
-
 
 
 const ratingStars = [...document.getElementsByClassName("rating__star")];
