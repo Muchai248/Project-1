@@ -1,0 +1,109 @@
+{
+  "housing": [
+    {
+      "id": 1,
+      "name": "MEM investment LTD",
+      "poster": "asset/Titledeed.png",
+      "years": 18,
+      "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.Invest with us!",
+      "ratingstars": 5
+    },
+    {
+      "id": 2,
+      "name": "Lincoln Investment LTD",
+      "poster": "asset/Titledeed.png",
+      "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.Build a home for tomorrow!",
+      "years": 14,
+      "ratingstar": 5
+    },
+    {
+      "id": 3,
+      "name": "Blue Sky Realtors",
+      "poster": "asset/Titledeed.png",
+      "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.For a well shelterd lifestyle!",
+      "years": 10,
+      "ratingstar": 4
+    },
+    {
+      "id": 4,
+      "name": "Spectron Shelters LTD",
+      "poster": "asset/Titledeed.png",
+      "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.Jenga Familia!",
+      "years": 6,
+      "ratingstar": 3
+    },
+    {
+      "id": 5,
+      "name": "Diamon Lands LTD",
+      "poster": "asset/Titledeed.png",
+      "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.Secure your Future!",
+      "years": 14,
+      "ratingstar": 5
+    },
+    {
+      "id": 6,
+      "name": "Park Lands Investment LTD",
+      "poster": "asset/Titledeed.png",
+      "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.The better option!",
+      "years": 15,
+      "ratingstar": 5
+    }
+  ],
+  "Users": [
+    {
+      "name": "muchaimark6@gmail.com",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "name": "muchaimark6@gmail.com",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "name": "muchaimark6@gmail.com",
+      "password": "76856985679",
+      "id": 4
+    },
+    {
+      "name": "muchaimark6@gmail.com",
+      "password": "123456",
+      "id": 5
+    },
+    {
+      "name": "muchaimark6@gmail.com",
+      "password": "2234444",
+      "id": 6
+    },
+    {
+      "name": "muchaimark6@gmail.com",
+      "password": "123445",
+      "id": 7
+    },
+    {
+      "name": "muchaimark6@gmail.com",
+      "password": "123456",
+      "id": 8
+    },
+    {
+      "name": "muchaimark6@gmail.com",
+      "password": "mark",
+      "id": 9
+    },
+    {
+      "name": "muchaimark6@gmail.com",
+      "password": "muchai",
+      "id": 10
+    },
+    {
+      "name": "mioypt896896fp8",
+      "password": "j;iuy;vioyu;itufi",
+      "id": 11
+    },
+    {
+      "name": "muchaimark6@gmail.com",
+      "password": "retqwergaerergqerrbaeb",
+      "id": 12
+    }
+  ]
+}
