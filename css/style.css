@@ -2,19 +2,29 @@
 
 
 
-body {
-  background-color:white;
-  }
+h4{
+  position: absolute;
+  bottom: 450px;
+  float: left;
+  width: 100%;
+  left: 589px;
+  height: 354px;
+  font-size: 55px;
+font-family: 'Times New Roman', Times, serif;
+}
 
   p{
     font-size: 30px;
   }
 
 
+  
+
 #one{
   padding: 154px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 img{
@@ -184,52 +194,3 @@ hr {
     background-color: #04AA6D;
     color: white;
   }
-
-  .rating{
-    width: 180px;
- }
- 
- .rating__star {
-    cursor: pointer;
-    color: #dabd18b2;
- }
- 
-
-
-h1{
-  color: white;
-}
-
-
-.rating {
-  display: inline-block;
-}
-
-.rating::before {
-  content: "★";
-  color: #ffd700;
-}
-
-.rating[data-rating="1"]::before {
-  content: "★";
-}
-
-.rating[data-rating="2"]::before {
-  content: "★★";
-}
-
-.rating[data-rating="3"]::before {
-  content: "★★★";
-}
-
-.rating[data-rating="4"]::before {
-  content: "★★★★";
-}
-
-.rating[data-rating="5"]::before {
-  content: "★★★★★";
-}
-
-
-
-

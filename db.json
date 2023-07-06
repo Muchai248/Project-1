@@ -5,48 +5,42 @@
       "name": "MEM investment LTD",
       "poster": "asset/swimhouse.jpg",
       "years": 18,
-      "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.Invest with us!",
-      "rating": 5
+      "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.Invest with us!"
     },
     {
       "id": 2,
       "name": "Lincoln Investment LTD",
       "poster": "asset/keyhouse.jpg",
       "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.Build a home for tomorrow!",
-      "years": 14,
-      "rating": 5
+      "years": 14
     },
     {
       "id": 3,
       "name": "Blue Sky Realtors",
       "poster": "asset/vachouse.jpg",
       "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.For a well shelterd lifestyle!",
-      "years": 10,
-      "rating": 4
+      "years": 10
     },
     {
       "id": 4,
       "name": "Spectron Shelters LTD",
       "poster": "asset/house.jpg",
       "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.Jenga Familia!",
-      "years": 6,
-      "rating": 3
+      "years": 6
     },
     {
       "id": 5,
       "name": "Diamon Properties LTD",
       "poster": "asset/bghouse.jpg",
       "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.Secure your Future!",
-      "years": 14,
-      "rating": 5
+      "years": 14
     },
     {
       "id": 6,
       "name": "Park Lands Investment LTD",
       "poster": "asset/lighthouse.jpg",
       "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.The better option!",
-      "years": 15,
-      "rating": 5
+      "years": 15
     }
   ],
   "Users": [
@@ -219,6 +213,36 @@
       "name": "mark",
       "password": "12334",
       "id": 35
+    },
+    {
+      "name": "John",
+      "password": "12345",
+      "id": 36
+    },
+    {
+      "name": "mark",
+      "password": "12334",
+      "id": 37
+    },
+    {
+      "name": "",
+      "password": "",
+      "id": 38
+    },
+    {
+      "name": "",
+      "password": "",
+      "id": 39
+    },
+    {
+      "name": "",
+      "password": "",
+      "id": 40
+    },
+    {
+      "name": "",
+      "password": "",
+      "id": 41
     }
   ]
 }

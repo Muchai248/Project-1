@@ -4,11 +4,14 @@
 ///year(duration)
 //sign up button
 
+
+
+
 const url="http://localhost:3000/housing"
 
 //DOM manipulation
 
-const modal = document.getElementById('id1');
+const modal2= document.getElementById('id1');
 //window.onclick = function(event) {
   //if (event.target == modal) {
     //modal.style.display = "none";
@@ -39,17 +42,18 @@ housingData.forEach(housing => {
     <img src="${housing.poster}" alt="Housing Poster">
     <p>${housing.description}</p>
     <p>Years: ${housing.years}</p>
-    <p>Rating: ${housing.rating} stars</p>
     <div class="rating">
-    <i class="rating__star far fa-star">:${housing.rating}</i>
-    <i class="rating__star far fa-star">:${housing.rating}</i>
-    <i class="rating__star far fa-star">:${housing.rating}</i>
-    <i class="rating__star far fa-star">:${housing.rating}</i>
-    <i class="rating__star far fa-star">:${housing.rating}</i>
-  </div>
+    <span class="rating__result"></span> 
+   <i class="rating__star far fa-star"></i>
+   <i class="rating__star far fa-star"></i>
+   <i class="rating__star far fa-star"></i>
+   <i class="rating__star far fa-star"></i>
+   <i class="rating__star far fa-star"></i>
+</div>
+  <button onclick="purchaseData(event)">Buy from us</button>
   `;
 
-  // Append the div to the container element
+
   container.appendChild(housingDiv);
 });
 
@@ -103,7 +107,7 @@ function submitData(e){
         },
         body:JSON.stringify(data)
     })
-    modal.style.display = "none";
+    modal2.style.display = "none";
 }
 
 
@@ -114,17 +118,28 @@ function putData(e){
         "name":emailName,
         "password":password
     }
+    modal2.style.display = "none";
 
-    
-    modal.style.display = "none";
+}
 
+function purchaseData(e){
+  const buy=document.getElementById("b1").value
+  const data={
+    "buy":buy
+  }
 }
 
 
 
 
 
+let star = document.querySelectorAll('input');
+let showValue = document.querySelector('#rating-value');
 
+for (let i = 0; i < star.length; i++) {
+	star[i].addEventListener('click', function() {
+		i = this.value;
 
-
-
+		showValue.innerHTML = i + " out of 5";
+	});
+}
