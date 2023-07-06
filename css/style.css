@@ -6,23 +6,19 @@ body {
   background-color:white;
   }
 
-  .banner{
-    background-color:white;
-    border-radius:5px;
-    padding:145px;
-    background-size: cover;
+  p{
+    font-size: 30px;
   }
 
 
 #one{
   padding: 154px;
-  display: grid;
+  display: flex;
   flex-wrap: wrap;
-
 }
 
 img{
-  max-width: 20%;
+  max-width: 60%;
   margin: 34px;
   bottom: 53px;
   left:34px;
@@ -106,6 +102,8 @@ button:hover {
 /* Add padding to container elements */
 .container {
   padding: 16px;
+  
+  
  
 }
 

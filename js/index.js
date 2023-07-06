@@ -35,20 +35,18 @@ housingData.forEach(housing => {
 
   // Set the HTML content of the div using the housing object properties
   housingDiv.innerHTML = `
-  <div></div>
     <h2>${housing.name}</h2>
     <img src="${housing.poster}" alt="Housing Poster">
     <p>${housing.description}</p>
     <p>Years: ${housing.years}</p>
-    <p>Rating: ${housing.ratingstars} stars</p>
+    <p>Rating: ${housing.rating} stars</p>
     <div class="rating">
-    <i class="rating__star far fa-star"></i>
-    <i class="rating__star far fa-star"></i>
-    <i class="rating__star far fa-star"></i>
-    <i class="rating__star far fa-star"></i>
-    <i class="rating__star far fa-star"></i>
-</div>
-
+    <i class="rating__star far fa-star">:${housing.rating}</i>
+    <i class="rating__star far fa-star">:${housing.rating}</i>
+    <i class="rating__star far fa-star">:${housing.rating}</i>
+    <i class="rating__star far fa-star">:${housing.rating}</i>
+    <i class="rating__star far fa-star">:${housing.rating}</i>
+  </div>
   `;
 
   // Append the div to the container element
@@ -76,11 +74,6 @@ function executeRating(stars) {
   });
 }
 executeRating(ratingStars);
-
-
-
-
-
 })
 
 

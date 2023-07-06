@@ -7,9 +7,8 @@
 </head>
 
 <div class="topnav">
-  <a class="index.html" href="index.html">Home</a>
+  <a class="#home" href="#home">Home</a>
   <a href="#properties">Properties</a>
-  <a href="#contact">Contact</a>
   <a href="#about">About</a>
 </div>
 <body>
@@ -21,12 +20,12 @@
       <h1>Sign Up</h1>
       <p>Create an account.</p>
       <hr>
-      <label for="email"><b>Email</b></label>
-      <input type="text" id="mail" placeholder="Enter Email" name="email" required>
+      <label for="email"><b>Name</b></label>
+      <input type="text" id="mail" placeholder="Enter Name" name="email" required>
       <label for="psw" ><b>Password</b></label>
       <input type="password" id="pass" placeholder="Enter Password" name="psw" required>
-      <label for="psw-repeat"><b>Repeat Password</b></label>
-      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      <label for="psw-repeat"><b>Confirm Password</b></label>
+      <input type="password" placeholder="Confirm Password" name="psw-repeat" required>
       <label>
       <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
       </label>
@@ -39,26 +38,31 @@
   </form>
 </div>
 </div>
+
 <section>
-
-<div class="rating" data-rating="5"></div>
-
-
-<div class="banner"> 
-<img src="./asset/keyhouse.jpg">
+<div class="rating-stars">
+	<input type="radio" name="rating" id="rs0" checked><label for="rs0"></label>
+	<input type="radio" name="rating" id="rs1"><label for="rs1"></label>
+	<input type="radio" name="rating" id="rs2"><label for="rs2"></label>
+	<input type="radio" name="rating" id="rs3"><label for="rs3"></label>
+	<input type="radio" name="rating" id="rs4"><label for="rs4"></label>
+	<input type="radio" name="rating" id="rs5"><label for="rs5"></label>
+	<span class="rating-counter"></span>
 </div>
-<div id="one"></div>
 
-<h2>Best Companies</h2>
-<div id="post-items-container"></div>
+<div id="one"></div>
 </div>
 </section>
 
-<section>  </section>
-
-
-
-
+<section id="properties">
+<body>
+<script  src="./js/index.js"></script>
+</body>
+</section>
+<footer>
+  <p>Author: Hege Refsnes</p>
+  <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+</footer>
 
 <script src="./js/index.js"></script>
 </body>

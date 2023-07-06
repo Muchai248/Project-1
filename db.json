@@ -19,7 +19,7 @@
     {
       "id": 3,
       "name": "Blue Sky Realtors",
-      "poster": "asset/keyhouse.jpg",
+      "poster": "asset/vachouse.jpg",
       "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.For a well shelterd lifestyle!",
       "years": 10,
       "rating": 4
@@ -27,15 +27,15 @@
     {
       "id": 4,
       "name": "Spectron Shelters LTD",
-      "poster": "asset/keyhouse.jpg",
+      "poster": "asset/house.jpg",
       "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.Jenga Familia!",
       "years": 6,
       "rating": 3
     },
     {
       "id": 5,
-      "name": "Diamon Lands LTD",
-      "poster": "asset/keyhouse.jpg",
+      "name": "Diamon Properties LTD",
+      "poster": "asset/bghouse.jpg",
       "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.Secure your Future!",
       "years": 14,
       "rating": 5
@@ -43,7 +43,7 @@
     {
       "id": 6,
       "name": "Park Lands Investment LTD",
-      "poster": "asset/keyhouse.jpg",
+      "poster": "asset/lighthouse.jpg",
       "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.The better option!",
       "years": 15,
       "rating": 5
@@ -164,6 +164,61 @@
       "name": "muchaimark6@gmail.com",
       "password": "12345",
       "id": 24
+    },
+    {
+      "name": "mark",
+      "password": "1234",
+      "id": 25
+    },
+    {
+      "name": "",
+      "password": "",
+      "id": 26
+    },
+    {
+      "name": "",
+      "password": "",
+      "id": 27
+    },
+    {
+      "name": "",
+      "password": "",
+      "id": 28
+    },
+    {
+      "name": "mark",
+      "password": "12334",
+      "id": 29
+    },
+    {
+      "name": "mark",
+      "password": "12334",
+      "id": 30
+    },
+    {
+      "name": "mark",
+      "password": "12334",
+      "id": 31
+    },
+    {
+      "name": "mark",
+      "password": "12334",
+      "id": 32
+    },
+    {
+      "name": "mark",
+      "password": "12334",
+      "id": 33
+    },
+    {
+      "name": "mark",
+      "password": "12334",
+      "id": 34
+    },
+    {
+      "name": "mark",
+      "password": "12334",
+      "id": 35
     }
   ]
 }
