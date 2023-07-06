@@ -42,47 +42,37 @@ housingData.forEach(housing => {
     <img src="${housing.poster}" alt="Housing Poster">
     <p>${housing.description}</p>
     <p>Years: ${housing.years}</p>
-    <div class="rating">
-    <span class="rating__result"></span> 
-   <i class="rating__star far fa-star"></i>
-   <i class="rating__star far fa-star"></i>
-   <i class="rating__star far fa-star"></i>
-   <i class="rating__star far fa-star"></i>
-   <i class="rating__star far fa-star"></i>
-</div>
-  <button onclick="purchaseData(event)">Buy from us</button>
+  <button class="tbtn"onclick="rateData(event)">Put your ratings here</button>
   `;
 
 
   container.appendChild(housingDiv);
 });
 
+// Create a function to handle the rating
 
-const ratingStars = [...document.getElementsByClassName("rating__star")];
+function rating(e){
+  e.preventDefault();
+  const rating = document.getElementsByClassName("rating__result");
+  const ratingValue = rating[0].innerHTML;
+  const housingId = e.target.parentElement.parentElement.id;
+  const data ={
+    "rating":ratingValue,
+    "housingId":housingId
+  }
 
-function executeRating(stars) {
-  const starClassActive = "rating__star fas fa-star";
-  const starClassInactive = "rating__star far fa-star";
-  const starsLength = stars.length;
-  let i;
-  stars.map((star) => {
-    star.onclick = () => {
-      i = stars.indexOf(star);
-
-      if (star.className===starClassInactive) {
-        for (i; i >= 0; --i) stars[i].className = starClassActive;
-      } else {
-        for (i; i < starsLength; ++i) stars[i].className = starClassInactive;
-      }
-    };
-  });
+  fetch("http://localhost:3000/ratings",{
+    method:"POST",
+    headers:{
+      "Content-Type":"application/json"
+    },
+    body:JSON.stringify(data)
+  })
+.then(response => response.json())
+.then(data => {
+    console.log(data);
+  })
 }
-executeRating(ratingStars);
-})
-
-
-
-
 
 
 
