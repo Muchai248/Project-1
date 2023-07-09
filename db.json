@@ -5,28 +5,32 @@
       "name": "MEM investment LTD",
       "poster": "asset/swimhouse.jpg",
       "years": 18,
-      "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.Invest with us!"
+      "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.Invest with us!",
+      "rating": null
     },
     {
       "id": 2,
       "name": "Lincoln Investment LTD",
       "poster": "asset/keyhouse.jpg",
       "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.Build a home for tomorrow!",
-      "years": 14
+      "years": 14,
+      "rating": "2"
     },
     {
       "id": 3,
       "name": "Blue Sky Realtors",
       "poster": "asset/vachouse.jpg",
       "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.For a well shelterd lifestyle!",
-      "years": 10
+      "years": 10,
+      "rating": null
     },
     {
       "id": 4,
       "name": "Spectron Shelters LTD",
       "poster": "asset/house.jpg",
       "description": "We manage, buy, sell, invest, and develop properties including land, residential homes and other buildings.Jenga Familia!",
-      "years": 6
+      "years": 6,
+      "rating": "4"
     },
     {
       "id": 5,
